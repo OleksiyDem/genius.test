@@ -1,20 +1,20 @@
 const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
+  // Optional parameters безкінечний слайдер
   loop: true,
 
   // Default parameters к-ть слайдів на екрані
   slidesPerView: 1,
 
   // відстань між слайдами, px
-  spaceBetween: 20,
+  spaceBetween: 16,
 
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 480px
+    // when window width is >= 768px
     768: {
       slidesPerView: 2,
     },
-    // when window width is >= 640px
+    // when window width is >= 1280px
     1280: {
       slidesPerView: 3,
     },

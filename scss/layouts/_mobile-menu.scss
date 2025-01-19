@@ -38,12 +38,8 @@
     fill: var(--color-primary-dark);
     width: 72px;
     height: 38px;
+    object-fit: fill;
     margin-bottom: 32px;
-  }
-  &__list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
   }
   &__list {
     display: flex;
@@ -54,7 +50,9 @@
   &__link {
     color: var(--color-primary-dark);
     font-size: 14px;
+    font-weight: 300;
     text-decoration: none;
+    transition: color 0.3s;
 
     &:hover {
       color: var(--color-brand-normal);
